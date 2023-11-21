@@ -128,6 +128,13 @@ img {
   cursor: pointer;
 }
 
+.switch-input-annualy:checked ~ .switch-label-annualy {
+  color: #6e728e;
+}
+.switch-input-monthly:checked ~ .switch-label-monthly {
+  color: #6e728e;
+}
+
 .switch-input-annualy:checked ~ .switch-control .switch-control-monthly,
 .switch-input-monthly:checked ~ .switch-control .switch-control-annual {
   z-index: 5;
